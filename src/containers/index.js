@@ -21,7 +21,7 @@ import footerProps from '../components/footer/data'
  
 const App = () => {
     return (
-        <BrowserRouter>
+        <BrowserRouter basename="/ChaoWebCommon-2">
             <div className='bodywrap'>
                 {/* render header */}
                 <Header {...headerProps} />
