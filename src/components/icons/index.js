@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 
 const Icon = (props) => {
     const htmlString = {
-        __html: `<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="assets/svg/sprite.svg#${props.id}"></use>`
+        __html: `<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="${process.env.PUBLIC_URL}/assets/sprite.svg#${props.id}"></use>`
     };
 
     return (
