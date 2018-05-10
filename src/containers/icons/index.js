@@ -6,7 +6,7 @@ const Icons = () => {
     return (
         <div>
             <p>Page -> icons</p>
-            <Icon id='home' />
+            <Icon id='home' assetPath={process.env.PUBLIC_URL} />
         </div>
     )
 }
