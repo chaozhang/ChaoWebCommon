@@ -12,12 +12,6 @@ import navProps from '../components/nav/data'
 import Footer from '../components/footer/'
 import footerProps from '../components/footer/data'
 
-
-// import app styles
-// require('../stylus/base.styl')
-
-// require('../stylus/override.styl')
-
  
 const App = () => {
     return (
