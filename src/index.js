@@ -4,7 +4,7 @@ import App from './containers/';
 import registerServiceWorker from './registerServiceWorker';
 
 // load styles
-import 'normalize.css';
+
 import './index.css';
 
 
