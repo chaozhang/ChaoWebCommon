@@ -1,5 +1,0 @@
-# ignore everything by default
-*
-
-# only keep lib compiled components
-!lib/**/*

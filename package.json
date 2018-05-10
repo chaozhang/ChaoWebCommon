@@ -21,6 +21,9 @@
         "build-lib-js": "npx babel src/components --out-dir lib/js"
     },
     "homepage": "https://chaozhang.github.io/ChaoWebCommon",
+    "files": [
+        "lib"
+    ],
     "devDependencies": {
         "gh-pages": "^1.1.0"
     },
