@@ -1,16 +1,19 @@
+// react
 import React from 'react'
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
-import Header from '../components/header/'
-import headerProps from '../components/header/data'
+
+// components
+import { Nav, Footer, Header } from '../components/'
+import headerProps from '../components/Header/data'
+import navProps from '../components/Nav/data'
+import footerProps from '../components/Footer/data'
+
+// containers
 import Home from './home/'
 import Colors from './colors/'
 import Icons from './icons/'
 import Invalid from './invalid/'
 import Gallery from './gallery/'
-import Nav from '../components/nav/'
-import navProps from '../components/nav/data'
-import Footer from '../components/footer/'
-import footerProps from '../components/footer/data'
 
  
 const App = () => {

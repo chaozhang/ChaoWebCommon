@@ -1,10 +1,10 @@
-import Header from './components/header'
-import Icon from './components/icons'
-import Nav from './components/nav'
-import Footer from './components/footer'
+import Header from './Header/'
+import Icon from './Icon/'
+import Nav from './Nav/'
+import Footer from './Footer/'
 
 
-module.exports = {
+export {
   Header,
   Icon,
   Nav,
