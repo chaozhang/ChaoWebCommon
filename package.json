@@ -1,7 +1,6 @@
 {
   "name": "chaowebcommon-2",
   "version": "0.1.0",
-  "private": true,
   "dependencies": {
     "nib": "^1.1.2",
     "react": "^16.3.2",
@@ -16,7 +15,7 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "deploy": "gh-pages -d build",
-    "build-css": "stylus -w src/stylus/base.styl src/stylus/app.styl -o src/css"
+    "build-css": "stylus -w src/stylus/app.styl -o src/index.css"
   },
   "homepage": "https://chaozhang.github.io/ChaoWebCommon-2",
   "devDependencies": {
