@@ -1,5 +1,5 @@
 import Header from './Header/'
-import Icon from './Icon/'
+import Icon from './SvgIcon/'
 import Nav from './Nav/'
 import Footer from './Footer/'
 
